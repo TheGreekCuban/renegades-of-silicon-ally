@@ -1,0 +1,151 @@
+/*# sourceMappingURL=style.css.map */
+
+body {
+    font-family: 'Cabin Sketch', cursive;
+    color: grey;
+    background-image: url(../images/gray_jean/gray_jean.png);
+}
+
+.logo {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.material-icons {
+    position: absolute;
+    z-index: 1;
+}
+.nav-wrapper {
+    font-family: 'Cabin Sketch', cursive;
+    background-image: url("../images/cascade-clouds-cool-wallpaper-210186-2.jpg");
+    height: 160px !important;
+    position: absolute;
+    z-index: 1;
+}
+
+.page-footer {
+    font-family: 'Cabin Sketch', cursive;
+    background-image: url("../images/cascade-clouds-cool-wallpaper-210186-2.jpg");
+    height: 80px !important;
+}
+
+.gif {
+    position: absolute;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.brand-logo {
+    position: relative !important;
+    z-index: 0;
+    text-shadow: 2px 2px 7px wheat;
+    font-style: italic;
+    font-size: 80px !important;
+    font-family: 'Fredericka the Great', cursive;
+    filter: brightness(100%);
+    vertical-align: middle;
+    padding: 10px !important;
+    max-width: 600px;
+  }
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+.mapTitle {
+    margin-left: 10px;
+}
+
+#loc-button {
+        width: 200px;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        margin-bottom: 20px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    #loc-button:hover {
+        background-color: rgb(73, 122, 76);
+        box-shadow: 0px 15px 20px rgba(9, 145, 90, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
+      }
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 600px;
+}
+
+.infoTable {
+    text-align: center;
+    font-size: 24px;
+    color: grey;
+    margin-top: 20px;
+    border-bottom: grey;
+}
+
+.infoTable thead {
+    display: table-header-group;
+}
+
+.table {
+    font-size: 16px;
+    color: grey;
+}
+
+    #allenQuote {
+        font-size: 24px;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+
+    .modal {
+        background-image: url("../images/topography/topography.png");
+        color: grey;
+        border-radius: 15px;
+        overflow-y: scroll;
+    }
+
+p {
+    display: inline-block;
+}
+
+.testbrewery {
+    font-size: 24px;
+    border-bottom: grey;
+}
+
+.card {
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.carousel {
+    overflow: visible; 
+    height: 500px;
+} 
+
+.carousel .carousel-item {
+    width: 600px;
+}
