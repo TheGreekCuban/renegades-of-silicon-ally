@@ -196,8 +196,8 @@ function handleTrails(response) {
         addMarker(coords);   
     }
 
-    $(document).ready(function(){
-        $('.carousel').carousel();
-      });
+    
+    $('.carousel').carousel();
+
           
 });
