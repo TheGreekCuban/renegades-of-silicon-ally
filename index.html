@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css"  media="screen,projection"/>
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Fredericka+the+Great&display=fallback" rel="stylesheet">
+    <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Fredericka+the+Great&display=fallback"
+        rel="stylesheet">
     <!-- Link Project CSS -->
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
     <title>Renegade TrailBrews</title>
 </head>
 
@@ -24,11 +25,11 @@
     <nav>
         <div class="nav-wrapper teal darken-1">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="left hide-on-med-and-down">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="meetup.html">MeetUp</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+            <ul class="left hide-on-med-and-down">
+                <li><a href="about.html">About</a></li>
+                <li><a href="meetup.html">MeetUp</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
             <div class="logo">
                 <a href="index.html" class="brand-logo center">Renegade Trailbrews
                     <img class="gif center" src="./assets/images/animat-compass.gif" alt="compass gif">
@@ -41,71 +42,66 @@
     <div id="modal1" class="modal">
         <div class="modal-content">
             <div id="allenQuote">"45 Minutes From Start To Guiness" -Allen Cooper</div>
-        <!--Form for Modal-->
-        <div class="row">
+        <!-- Form for Modal -->
+            <form>
+                <div class="input-field">
+                    <input placeholder="Jane Doe" id="userName" type="text" class="validate">
+                    <label for="name">Name</label>
+                </div>
 
-            <form class="col s12">
-                <div class="row">
-                    <div class="input-field col s6">
-                        <input placeholder="Jane Doe" id="userName" type="text" class="validate">
-                            <label for="name">Name</label>
-                    </div>
+                <div class="input-field">
+                    <input placeholder="JDoe@gmail.com" id="userEmail" type="text" class="validate">
+                    <label for="email">E-Mail</label>
                 </div>
-                <div class="row">
-                    <div class="input-field col s6">
-                        <input placeholder="JDoe@gmail.com" id="userEmail" type="text" class="validate">
-                            <label for="email">E-Mail</label>
-                    </div>
-                </div>
-                        
-                    <label for="age" >Age</label>
-                        <div class="row">
-                        <p>
-                            <label>
-                                <input name="age" type="radio" value="21-26"/>
-                                    <span>21-26</span>
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <input name="age" type="radio" value="27-31" />
-                                    <span>27-31</span>
-                             </label>
-                        </p>
-                        <p>
-                            <label>
-                                <input name="age" type="radio" value="32-37" />
-                                    <span>32-37</span>
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <input name="age" type="radio" value="41-46" />
-                                    <span>41-46</span>
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <input name="age" type="radio" value="46+"/>
-                                    <span>46+</span>
-                            </label>
-                        </p>
-                      </div>
-                    </form>
-                </div>  
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat btn-large" id="loc-button">Find My Trails</a>
+
+                <label for="age">Age</label>
+                <p>
+                    <label>
+                        <input name="age" type="radio" value="21-26" />
+                        <span>21-26</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="age" type="radio" value="27-31" />
+                        <span>27-31</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="age" type="radio" value="32-37" />
+                        <span>32-37</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="age" type="radio" value="41-46" />
+                        <span>41-46</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="age" type="radio" value="46+" />
+                        <span>46+</span>
+                    </label>
+                </p>
+            </form>
+
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat btn-large" id="loc-button">Find My Trails</a>
         </div>
-    </div> 
+    </div>
 
-    <div class="mapTitle"><h1>Trails Near Me</h1></div>
-        <div class="row">
-            <div id="map"></div>
-                <br>
-            <div class="leftCard col s12 m6">
-                <div class='card large'>
-                    <div class='card-title'>
-                        <p class="infoTable">Top 5 Trails Near You: </p>
-                    </div>
+    <div class="mapTitle">
+        <h1>Trails Near Me</h1>
+    </div>
+    <div class="row">
+        <div id="map"></div>
+        <br>
+        <div class="leftCard col s12 m6">
+            <div class='card large'>
+                <div class='card-title'>
+                    <p class="infoTable">Top 5 Trails Near You: </p>
+                </div>
                 <div class='card-body'>
                     <table class="table highlight" id="trail-table">
                         <thead>
@@ -114,18 +110,17 @@
                                 <th scope="col">Location</th>
                                 <th scope="col">Rating</th>
                             </tr>
-                        </thead> 
-                            <tbody>
-                            </tbody>
+                        </thead>
+                        <tbody>
+                        </tbody>
                     </table>
                 </div>
-                </div>
             </div>
-       
-        <div class='rightCard col s12 m6'>
-            <div class='card large'>
+        </div>
+
+            <div class='card large rightCard col s12 m6'>
                 <div class='card-title'>
-                    <p class="testbrewery">Top 5 Breweries for the End of Your Hike: </p> 
+                    <p class="testbrewery">Top 5 Breweries for the End of Your Hike: </p>
                 </div>
                 <div class="card-body">
                     <table class="table highlight" id="brewery-table">
@@ -133,26 +128,28 @@
                             <tr>
                                 <th scope="col">Brewery Name</th>
                                 <th scope="col">Address</th>
-                                <th scope="col">Phone Number</th>   
+                                <th scope="col">Phone Number</th>
                             </tr>
                         </thead>
-                            <tbody>
-                            </tbody>
+                        <tbody>
+                        </tbody>
                     </table>
                 </div>
             </div>
-        </div>
-        </div>
-    
-    <div class="carousel s12">
-        <a class="carousel-item" href="#one!"><img src="https://d11i9byukk4agg.cloudfront.net/app/public/assets/stories/1749/main_photo/large/tumblr_nr4axqkfXR1ri43n6o1_1280.jpg?1514614117"></a>
-        <a class="carousel-item" href="#four!"><img src="https://66.media.tumblr.com/880cf1f775bb3a011b04e9d5e7222099/tumblr_nnac7jhORa1t7xuqto1_1280.jpg"></a>
-        <a class="carousel-item" href="#five!"><img src="https://banknxt.com/wp-content/uploads/2015/05/SW_Josh-Felise.jpg"></a>
     </div>
-        <br>
-        <br>
-        <br>
-        <br>
+
+    <div class="carousel s12">
+        <a class="carousel-item" href="#one!"><img
+                src="https://d11i9byukk4agg.cloudfront.net/app/public/assets/stories/1749/main_photo/large/tumblr_nr4axqkfXR1ri43n6o1_1280.jpg?1514614117"></a>
+        <a class="carousel-item" href="#four!"><img
+                src="https://66.media.tumblr.com/880cf1f775bb3a011b04e9d5e7222099/tumblr_nnac7jhORa1t7xuqto1_1280.jpg"></a>
+        <a class="carousel-item" href="#five!"><img
+                src="https://banknxt.com/wp-content/uploads/2015/05/SW_Josh-Felise.jpg"></a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <footer class="page-footer teal darken-1">
         <div class="footer-copyright">
             <div class="container">
@@ -163,11 +160,12 @@
 
     <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
-    
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKZ95YJGcmSmTi1q8vk3RDOQdoHFPD-78"></script>
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKZ95YJGcmSmTi1q8vk3RDOQdoHFPD-78"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
-</html>
 
+</html>

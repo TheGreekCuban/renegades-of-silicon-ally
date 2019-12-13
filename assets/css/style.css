@@ -1,5 +1,10 @@
 /*# sourceMappingURL=style.css.map */
 
+html, body {
+    height: 100vw;
+    width: 100vw;
+}
+
 body {
     font-family: 'Cabin Sketch', cursive;
     color: grey;
@@ -52,13 +57,6 @@ body {
     max-width: 600px;
   }
 
-.container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
-  }
-
 .mapTitle {
     margin-left: 10px;
 }
@@ -105,7 +103,7 @@ body {
     border-bottom: grey;
 }
 
-.infoTable thead {
+.infoTable {
     display: table-header-group;
 }
 
@@ -114,18 +112,19 @@ body {
     color: grey;
 }
 
-    #allenQuote {
-        font-size: 24px;
-        font-style: italic;
-        margin-bottom: 10px;
-    }
+#allenQuote {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 10px;
+}
 
-    .modal {
-        background-image: url("../images/topography/topography.png");
-        color: grey;
-        border-radius: 15px;
-        overflow-y: scroll;
-    }
+.modal {
+    background-image: url("../images/topography/topography.png");
+    color: grey;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 1em;
+}
 
 p {
     display: inline-block;
@@ -138,7 +137,7 @@ p {
 
 .card {
     padding: 10px;
-    overflow-y: auto;
+    overflow-y: visible;
 }
 
 .carousel {
@@ -147,5 +146,22 @@ p {
 } 
 
 .carousel .carousel-item {
-    width: 600px;
+    width: 100%;
+}
+
+@media screen and (max-width: 490px) {
+    .modal {
+        height: 100vw;
+        width: 100vw;
+    }
+
+    .carousel .carousel-item {
+        display: none;
+    }
+
+    #allenQuote {
+        font-size: 1.25em;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
 }
