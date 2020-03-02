@@ -24,6 +24,4 @@
 #### * Open Brewery API
 #### * Firebase for the database
 
-#### There were 4 contributors to this project
-
 
